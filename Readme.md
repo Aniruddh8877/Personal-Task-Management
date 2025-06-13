@@ -2,14 +2,14 @@
 
 A simple and elegant Node.js + Express-based Task Management web application that allows users to create, read, update, and delete personal tasks stored as individual `.txt` files.
 
-## 🔗 Live Demo (Optional)
+# 🔗 Live Demo (Optional)
 *(Add a deployed link here if hosted)*
 
-## Author
-# Aniruddh Sharma
+# Author
+### Aniruddh Sharma
 GitHub:@Aniruddh8877
 
-## 📌 Features
+# 📌 Features
 
 - ✅ Create new tasks with title and description  
 - 📝 Read full task details  
@@ -21,7 +21,7 @@ GitHub:@Aniruddh8877
 
 ---
 
-## 📁 Project Structure
+# 📁 Project Structure
 Personal-Task-Management/
 ├── files/ # Stores task files
 ├── public/
@@ -31,7 +31,7 @@ Personal-Task-Management/
 ├── index.js # Main server file (Express)
 └── README.md
 
-## ⚙️ Tech Stack
+# ⚙️ Tech Stack
 Backend: Node.js, Express.js
 
 Templating Engine: EJS
@@ -43,18 +43,25 @@ Storage: Local File System (fs module)
 
 ---
 
-## 🚀 Getting Started
+# 🚀 Getting Started
 
-### 1. Clone the Repository
+## 1. Clone the Repository
 
 ```bash
 git clone https://github.com/Aniruddh8877/Personal-Task-Management.git
 cd Personal-Task-Management
+```
 
+## 2. Install Packages
+```bash
 npm install
+```
 
+## 3. Run Commands
+```bash
 nodemon index.js
 # or
 node index.js
+```
 
 
